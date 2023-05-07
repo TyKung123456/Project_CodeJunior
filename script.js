@@ -22,7 +22,7 @@ fetch('jsonFile_dif')
     // Display the first question
     displayQuestion();
 
-    // Display the next question when the Submit button is clicked
+    // Display the next question when the Submit button is clicked ขี้
     submitBtn.addEventListener('click', () => {
       // Check if the selected choice is correct
       let selectedChoice = document.querySelector('input[name="choice"]:checked');
