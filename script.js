@@ -45,7 +45,7 @@ fetch('jsonFile_dif')
     });
 
     function displayQuestion() {
-      // Display the question
+      // Display the question ขี้
       let question = questions[currentQuestionIndex];
       questionEl.textContent = question.question;
 
