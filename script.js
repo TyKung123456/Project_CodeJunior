@@ -36,7 +36,7 @@ fetch('jsonFile_dif')
         if (currentQuestionIndex < questions.length) {
           displayQuestion();
         } else {
-          // Display the final score
+          // Display the final score ขี้
           questionEl.textContent = 'Quiz Completed';
           choicesEl.innerHTML = '';
           scoreEl.textContent = `Your Score: ${score} out of ${questions.length}`;
