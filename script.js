@@ -31,7 +31,7 @@ fetch('jsonFile_dif')
           score++;
         }
 
-        // Move on to the next question
+        // Move on to the next question ขี้
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
           displayQuestion();
