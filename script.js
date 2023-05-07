@@ -19,7 +19,7 @@ fetch('jsonFile_dif')
     const scoreEl = document.getElementById('score');
     const submitBtn = document.getElementById('submit-btn');
 
-    // Display the first question ขี้้1
+    // Display the first question ขี้้12
     displayQuestion();
 
     // Display the next question when the Submit button is clicked ขี้
